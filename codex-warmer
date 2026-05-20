@@ -1,0 +1,3 @@
+#!/bin/bash
+# Keep the Codex 5-hour usage window open so it overlaps the next one.
+# Invoked from cron every 4 hours.
