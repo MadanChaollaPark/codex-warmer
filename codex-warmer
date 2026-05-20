@@ -2,4 +2,5 @@
 # Keep the Codex 5-hour usage window open so it overlaps the next one.
 # Invoked from cron every 4 hours.
 export PATH="$HOME/.nvm/versions/node/v24.12.0/bin:$PATH"
+echo "===== $(date -Is) ====="
 timeout 120 codex exec --skip-git-repo-check "hi"
