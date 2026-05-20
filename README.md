@@ -4,6 +4,9 @@ A small cron-friendly wrapper that pings `codex exec` on a schedule so the
 Codex 5-hour usage window stays open and overlaps the next one — giving you a
 "warmer" of usable quota right when you sit down to work.
 
+## the idea
+If you start coding when you're already 3 hours in your 5 hour windon -  you can code for 3hours and use 2 5hour windows (the last 2 hours of the first 5 hour window and the first hour of the second 5 hour window).
+
 ## Install
 
 ```bash
